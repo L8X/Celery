@@ -1,4 +1,4 @@
 update=false
-bypass_memcheck=false
+bypass_memcheck=true
 use_rvm=false
 use_compiler=false
