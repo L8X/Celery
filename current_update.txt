@@ -1,2 +1,4 @@
 update=false
 bypass_memcheck=false
+use_rvm=false
+use_compiler=false
