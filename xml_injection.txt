@@ -1,0 +1,17 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="LocalScript" referent="RBX4B2A04BB02184478AFBD8E44C4EB578C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="Disabled">false</bool>
+			<Content name="LinkedSource"><null></null></Content>
+			<string name="Name">LocalScript</string>
+			<string name="ScriptGuid">{3AD09B9E-134F-4F9C-ABB9-FC8F2CABFEDE}</string>
+			<ProtectedString name="Source"><![CDATA[print('Hello, world!')]]</ProtectedString>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+</roblox>
