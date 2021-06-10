@@ -1,6 +1,6 @@
 version=1.001
 update=false
-bypass_memcheck=false
+bypass_memcheck=true
 use_rvm=false
 use_compiler=false
 log_crashes=true
