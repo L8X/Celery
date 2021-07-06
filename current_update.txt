@@ -1,6 +1,3 @@
-version=1.001
+version=1.0
 update=false
-bypass_memcheck=false
-use_rvm=false
-use_compiler=false
-log_crashes=true
+crash_dump=false
