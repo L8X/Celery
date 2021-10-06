@@ -7,7 +7,10 @@ celery.settings = {
 celery.check_version = function()
   version = get_app_path();
   version = version:sub(version:find("version-") + 8, string.len(version));
-
+  
+  print(version);
+  print(celery.settings.update);
+  
   if (version ~= celery.settings.update) then
     return false;
   end
