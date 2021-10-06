@@ -18,3 +18,4 @@ end
 if not celery.check_version() then
   alert("Wrong ROBLOX version detected. Please wait for Celery to update...");
 end
+
