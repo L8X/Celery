@@ -6,9 +6,7 @@ celery.settings = {
 
 celery.check_version = function()
   local version = get_app_path();
-  version = version:sub(version:find("version-") + 8, version:find("\\RobloxPlayerBeta"));
-  
-  print("Using: version-" .. version);
+  version = version:sub(version:find("version-") + 8, version:find("\\RobloxPlayerBeta") - 1);
   
   if (version ~= celery.settings.update) then
     return false;
