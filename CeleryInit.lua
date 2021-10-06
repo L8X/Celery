@@ -18,3 +18,7 @@ end
 if not celery.check_version() then
   alert("Wrong ROBLOX version detected. Please wait for Celery to update...");
 end
+
+if not whitelisted() then
+  alert("Unauthorized. Please send an updated key to jayyy#8941 to be authorized");
+end
