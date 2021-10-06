@@ -1,2 +1,0 @@
-update=false
-crash_dump=false
