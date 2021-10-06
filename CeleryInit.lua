@@ -17,11 +17,12 @@ end
 
 if not celery.check_version() then
   alert("Wrong ROBLOX version detected. Please wait for Celery to update...");
-  system("exit");  
+  exit(0);
 end
 
 if not whitelisted() then
   alert("Unauthorized. Please send a new key to jayyy#8941 to start using Celery");
+  exit(0);
 end
 
 -- continue..
