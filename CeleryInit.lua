@@ -1,7 +1,7 @@
 celery = {};
 
 celery.settings = {
-  ["update"] = "39d99a2272a7430b"
+  ["update"] = "39d99a2272a7430b" 
 };
 
 celery.check_version = function()
