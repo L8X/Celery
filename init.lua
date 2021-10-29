@@ -20,6 +20,10 @@ if not celery.check_version() then
   exit();
 end
 
+if forcewhitelist then
+  forcewhitelist();
+end
+
 if not whitelisted() then
   alert("Unauthorized. Please send an updated key to jayyy#8941 to be authorized");
   exit();
