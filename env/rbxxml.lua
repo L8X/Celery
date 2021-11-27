@@ -5,8 +5,8 @@ function getrbxproperties()
     local at = 1;
     local function nextkeyword()
         local keyword = "";
-        -- due to some strange crap magic we cant parse
-        -- out every occurence of '\r' character
+        -- due to some strange crap/black magic we cant parse
+        -- out all occurences of '\r' character
         while (raw:sub(at, at) ~= ' ' and raw:sub(at, at) ~= '\n') do
             keyword = keyword .. raw:sub(at, at);
             at = at + 1;
