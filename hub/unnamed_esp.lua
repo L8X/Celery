@@ -2308,7 +2308,6 @@ local function UpdatePlayerData()
 								Character:FindFirstChild'Left Arm' or Character:FindFirstChild'LeftLowerArm';
 								Character:FindFirstChild'Right Arm' or Character:FindFirstChild'RightLowerArm';
 							}
-							print'nigga'
 							Box:Update(HumanoidRootPart.CFrame, V3New(2, 3, 1) * (Scale * 2), Color, nil, shared.am_ic3 and Body);
 						else
 							Box:SetVisible(false);
