@@ -1,0 +1,9 @@
+user = game.Players.LocalPlayer;
+if user.Backpack:FindFirstChild("Sword") then
+    user.Character.Humanoid:EquipTool(user.Backpack.Sword);
+end
+wait(1);
+user.Character.Sword.Handle.Size=Vector3.new(4e4,4e4,4e4)
+user.Character.Sword.Handle.CanCollide = false -- Credits to nul#3174 for the fix
+user.Character.Sword.Handle.Massless = true -- Credits to nul#3174 for the fix
+-- now click alot of times!
